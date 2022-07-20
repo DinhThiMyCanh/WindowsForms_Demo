@@ -83,7 +83,7 @@ namespace WindowsForms_Demo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(728, 339);
+            this.ClientSize = new System.Drawing.Size(686, 330);
             this.Controls.Add(this.btnDangNhap);
             this.Controls.Add(this.txtMK);
             this.Controls.Add(this.txtTK);

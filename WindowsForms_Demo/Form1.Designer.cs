@@ -35,11 +35,11 @@ namespace WindowsForms_Demo
             this.txtHoTen = new System.Windows.Forms.TextBox();
             this.dtpNgaySinh = new System.Windows.Forms.DateTimePicker();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.rdNam = new System.Windows.Forms.RadioButton();
             this.rdNu = new System.Windows.Forms.RadioButton();
+            this.rdNam = new System.Windows.Forms.RadioButton();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.chkTiengAnh = new System.Windows.Forms.CheckBox();
             this.chkTiengTrung = new System.Windows.Forms.CheckBox();
+            this.chkTiengAnh = new System.Windows.Forms.CheckBox();
             this.label3 = new System.Windows.Forms.Label();
             this.cboQueQuan = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -99,17 +99,6 @@ namespace WindowsForms_Demo
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Giới tính";
             // 
-            // rdNam
-            // 
-            this.rdNam.AutoSize = true;
-            this.rdNam.Location = new System.Drawing.Point(157, 34);
-            this.rdNam.Name = "rdNam";
-            this.rdNam.Size = new System.Drawing.Size(89, 33);
-            this.rdNam.TabIndex = 0;
-            this.rdNam.TabStop = true;
-            this.rdNam.Text = "Nam";
-            this.rdNam.UseVisualStyleBackColor = true;
-            // 
             // rdNu
             // 
             this.rdNu.AutoSize = true;
@@ -120,6 +109,17 @@ namespace WindowsForms_Demo
             this.rdNu.TabStop = true;
             this.rdNu.Text = "Nữ";
             this.rdNu.UseVisualStyleBackColor = true;
+            // 
+            // rdNam
+            // 
+            this.rdNam.AutoSize = true;
+            this.rdNam.Location = new System.Drawing.Point(157, 34);
+            this.rdNam.Name = "rdNam";
+            this.rdNam.Size = new System.Drawing.Size(89, 33);
+            this.rdNam.TabIndex = 0;
+            this.rdNam.TabStop = true;
+            this.rdNam.Text = "Nam";
+            this.rdNam.UseVisualStyleBackColor = true;
             // 
             // groupBox2
             // 
@@ -132,16 +132,6 @@ namespace WindowsForms_Demo
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Ngoại ngữ";
             // 
-            // chkTiengAnh
-            // 
-            this.chkTiengAnh.AutoSize = true;
-            this.chkTiengAnh.Location = new System.Drawing.Point(157, 44);
-            this.chkTiengAnh.Name = "chkTiengAnh";
-            this.chkTiengAnh.Size = new System.Drawing.Size(149, 33);
-            this.chkTiengAnh.TabIndex = 0;
-            this.chkTiengAnh.Text = "Tiếng Anh";
-            this.chkTiengAnh.UseVisualStyleBackColor = true;
-            // 
             // chkTiengTrung
             // 
             this.chkTiengTrung.AutoSize = true;
@@ -151,6 +141,16 @@ namespace WindowsForms_Demo
             this.chkTiengTrung.TabIndex = 1;
             this.chkTiengTrung.Text = "Tiếng Trung";
             this.chkTiengTrung.UseVisualStyleBackColor = true;
+            // 
+            // chkTiengAnh
+            // 
+            this.chkTiengAnh.AutoSize = true;
+            this.chkTiengAnh.Location = new System.Drawing.Point(157, 44);
+            this.chkTiengAnh.Name = "chkTiengAnh";
+            this.chkTiengAnh.Size = new System.Drawing.Size(149, 33);
+            this.chkTiengAnh.TabIndex = 0;
+            this.chkTiengAnh.Text = "Tiếng Anh";
+            this.chkTiengAnh.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
@@ -263,7 +263,7 @@ namespace WindowsForms_Demo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1331, 594);
+            this.ClientSize = new System.Drawing.Size(1287, 594);
             this.Controls.Add(this.btnAnh);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label5);

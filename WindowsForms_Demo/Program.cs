@@ -16,7 +16,7 @@ namespace WindowsForms_Demo
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmMenu());
+            Application.Run(new frmNhanVien());
         }
     }
 }

@@ -52,7 +52,7 @@ namespace WindowsForms_Demo
             this.trợGiúpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1056, 36);
+            this.menuStrip1.Size = new System.Drawing.Size(1056, 33);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -107,7 +107,8 @@ namespace WindowsForms_Demo
             // 
             this.giáoViênToolStripMenuItem.Name = "giáoViênToolStripMenuItem";
             this.giáoViênToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
-            this.giáoViênToolStripMenuItem.Text = "Giáo viên";
+            this.giáoViênToolStripMenuItem.Text = "Nhân viên";
+            this.giáoViênToolStripMenuItem.Click += new System.EventHandler(this.giáoViênToolStripMenuItem_Click);
             // 
             // cơSởVậtChấtToolStripMenuItem
             // 

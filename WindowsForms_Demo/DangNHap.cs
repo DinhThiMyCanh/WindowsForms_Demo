@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace WindowsForms_Demo
 {
@@ -16,20 +17,22 @@ namespace WindowsForms_Demo
         {
             InitializeComponent();
         }
-
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
-            if (txtTK.Text == "Admin" && txtMK.Text == "123456")
+            string user = txtTK.Text.Trim();
+            string pp = txtMK.Text.Trim();
+            string sql = string.Format("Select * from DangNhap where TenDangNhap =={0} and MatKhau=={1}",user, pp);
+           // if (KetNoi.Ktra(sql)!=null)
             {
                 MessageBox.Show("Bạn đăng nhập thành công");
-                //frmControlCB f = new frmControlCB();
-                //f.ShowDialog();
                 this.Hide();
                 string st = "admin";
                 frmMenu f = new frmMenu(st);
                 f.ShowDialog();
-            }    
-                
+            }  
+            //else
+            //    MessageBox.Show("Bạn đăng nhập không thành công");
+
         }
     }
 }

@@ -35,5 +35,10 @@ namespace WindowsForms_Demo
             f.MdiParent = this;
             f.Show();
         }
+
+        private void giáoViênToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
