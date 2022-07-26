@@ -21,7 +21,7 @@ namespace WindowsForms_Demo
         {
             string user = txtTK.Text.Trim();
             string pp = txtMK.Text.Trim();
-            string sql = string.Format("Select * from DangNhap where TenDangNhap =={0} and MatKhau=={1}",user, pp);
+            string sql = string.Format("Select * from DangNhap where TenDangNhap ='{0}' and MatKhau='{1}'",user, pp);
            // if (KetNoi.Ktra(sql)!=null)
             {
                 MessageBox.Show("Bạn đăng nhập thành công");
